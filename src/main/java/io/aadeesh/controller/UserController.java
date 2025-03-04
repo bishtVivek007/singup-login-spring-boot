@@ -48,7 +48,7 @@ public class UserController
 		
 		if(list.size()!=0)
 		{
-		mv.addObject("message", "Oops!  User already registered with this email!");
+		mv.addObject("message", "Oops!  Email already registered, try with another email!");
 		
 		}
 		else
@@ -62,7 +62,7 @@ public class UserController
 	@GetMapping("/dummy")
 	public String dummy()
 	{
-		return "dummy testing";
+		return "dummy";
 	}
 	
 	@PostMapping("/login")
