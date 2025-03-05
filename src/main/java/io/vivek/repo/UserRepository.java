@@ -1,10 +1,10 @@
-package io.aadeesh.repo;
+package io.vivek.repo;
 
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import io.aadeesh.model.User;
+import io.vivek.model.User;
 
 public interface UserRepository extends JpaRepository<User, Integer> {
 	

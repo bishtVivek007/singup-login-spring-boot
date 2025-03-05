@@ -8,7 +8,7 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>io.aadeesh</groupId>
+	<groupId>io.vivek</groupId>
 	<artifactId>UserRegistration1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>UserRegistration1</name>

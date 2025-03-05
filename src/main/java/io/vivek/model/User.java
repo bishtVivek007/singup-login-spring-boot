@@ -1,4 +1,4 @@
-package io.aadeesh.model;
+package io.vivek.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
